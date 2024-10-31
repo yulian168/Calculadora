@@ -1,0 +1,68 @@
+.cal{
+    width: 40%;
+    background-color: black;
+    margin: 0 auto;
+    padding: 20px 20px 20px 20px;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5,1fr);
+    margin-top: 180px;
+    box-shadow: 2px 2px 2px lightgray;
+}
+#total{
+    grid-column: 1/5;
+    grid-row: 1/2;
+    height: 40px;
+    border-radius: 20px;
+    font-size: 25px;
+    text-align: right;
+    background-color: black;
+    border: none;
+    color: white;
+}
+#ac{
+    grid-column: 3/4;
+    grid-row: 5/6;
+    background-color: darkslategrey;
+}
+#sum{
+    grid-column: 1/2;
+    grid-row: 2/3;
+    background-color: orange;
+    color: white;
+}
+#res{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    background-color: orange;
+    color: white;
+}
+#mul{
+    grid-column: 3/4;
+    grid-row: 2/3;
+    background-color: orange;
+    color: white;
+}
+#div{
+    grid-column: 4/5;
+    grid-row: 2/3;
+    background-color: orange;
+    color: white;
+}
+#igual{
+    grid-column: 4/5;
+    grid-row: 5/6;
+    color: white;
+}
+.boton{
+    border-radius: 20px;
+    color: white;
+    background-color: darkgray;
+    font-size: 25px;
+    margin: 2px;
+    border: none;
+}
+.boton:hover{
+    box-shadow: 2px 2px 2px white;
+}
